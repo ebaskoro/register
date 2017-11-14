@@ -1,0 +1,8 @@
+imcv_hajj:
+    resource: "@IMCVHajjBundle/Controller/"
+    type:     annotation
+    prefix:   /hajj
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation

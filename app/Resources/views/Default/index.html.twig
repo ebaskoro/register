@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron">
+        <h1>Register Now</h1>
+        <p>Choose from the following IMCV sponsored events or causes.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="{{ asset('bundles/imcvhajj/images/poster.jpg') }}">
+          <div class="caption">
+            <h3>Hajj 2016</h3>
+            <p>Registration for the next hajj season in 2016 is now open.</p>
+            <p class="text-right">
+              <a href="{{ path('imcv_hajj_') }}" class="btn btn-primary btn-lg" role="button">Register</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
